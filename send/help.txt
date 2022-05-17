@@ -1,0 +1,11 @@
+
+  // Вставляем вместо кода с пикселем ФБ
+  <?php require "send/main.php"; ?>
+
+  // Вставлям перед закрывающим тегом </form>
+  <input type="hidden" name="utm" value="<?php echo $utm?>">
+  <input type="hidden" name="site" value="<?php echo $site?>">
+  <input type="hidden" name="price" value="<?php echo $price?>">
+
+  // Вставляем после ссылки на сайт в обьявлении при нстройке рекламной кампании
+  ?utm={{placement}}/{{campaign.name}}/{{adset.name}}/{{ad.name}}
