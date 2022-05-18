@@ -170,7 +170,7 @@ color:#000;
 .fixed{
 	position: fixed;
 	top: 0;
-	width: 92.5%;
+	width: 70%;
 	margin: 0 auto;
 	left:0;
 	background:#272727;
@@ -1568,7 +1568,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .clients-left img {
 	margin: 20px 0px;
-	width: 59%;
+	width: 200%;
 }
 .callbacks_nav {
 	height: 30px;
